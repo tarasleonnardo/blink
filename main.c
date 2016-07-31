@@ -4,7 +4,7 @@
 
 void delay(void)
 {
-  uint32_t del = 0x20000;
+  uint32_t del = 0x40000;
   
   while(del--);
 }
